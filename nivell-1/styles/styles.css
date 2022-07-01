@@ -1,70 +1,92 @@
-
-.menu {
+#block-title { 
     max-width: 1200px;
-    background: grey;
-    color: red;
+    background: black;
+    padding: 20px 10px;
     margin: 15px;
-    padding: 10px;
+    }
+
+#container-menus {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    text-decoration: none;
+} 
+
+#menu1 {
+    background: grey;
+    color: white;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px 15px;  
+    }
+#menu2 {
+    background: grey;
+    color: white;
+    flex-grow: 2;
+    padding: 10px;
+    margin: 10px 15px;
+}
+#menu3 {
+    background: grey;
+    color: white;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px 15px; 
 }
 
 h1 {
     max-width: 1200px;
     background: orange;
     color: yellow;
-    margin: 15px;
+    margin: 10px 15px;
     padding: 10px;
 }
-
-.block-title { 
+    
+#block-columns { 
     max-width: 1200px;
     background: black;
-    color: white;
     margin: 15px;
-    padding: 15px;
-    }
-    
-.block-columns { 
-        max-width: 1200px;
-        background: black;
-        color: white;
-        margin: 15px;
-        padding: 15px;
-        display: flex;
-        }
-        
-.p-columna {
-    margin: 15px;
-    padding: 10px;
-    color: blue;     
-}
-
-.columna {
-    max-width: 1200px;
+    padding: 30px 10px;
     display: flex;
+    }
+
+#cuadro-izquierdo {
+    color: blue;
+    background: silver;
+    padding: 50px 10px;
+    margin: 15px; 
+    display: flex;
+    flex-direction: row; 
 }
 
-.columna-derecha {
+#columna1 {
+    padding: 0px 10px;
+}
+
+#columna2 {
+    padding: 0px 10px;
+}     
+
+#linea {
+    color: blue;
+    background: silver;
+    padding: 50px 10px;
+    margin: 15px; 
+}  
+
+#columna-derecha {
     max-width: 1200px;
     background: red;
     color: yellow;
     margin: 15px;
-    padding: 10px;
+    padding: 50px 10px;
     align-self: flex-end;
+    align-self: center;
 }
 
-
-
-.block-footer { 
+#block-footer { 
     max-width: 1200px;
     background: black;
-    margin: 15px;
-    padding: 15px;
-    }
-
-    .p-footer {
-        margin: 15px;
-        padding: 10px;
-        color: yellow;     
+    margin: 10px 15px;
+    padding: 10px 30px;
+    color: yellow
     }
