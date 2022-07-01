@@ -1,7 +1,7 @@
 #block-title { 
     max-width: 1200px;
     background: black;
-    padding: 20px 10px;
+    padding: 10px 10px;
     margin: 15px;
     }
 
@@ -45,7 +45,7 @@ h1 {
     max-width: 1200px;
     background: black;
     margin: 15px;
-    padding: 30px 10px;
+    padding: 10px 10px;
     display: flex;
     }
 
@@ -86,7 +86,7 @@ h1 {
 #block-footer { 
     max-width: 1200px;
     background: black;
-    margin: 10px 15px;
-    padding: 10px 30px;
+    margin: 15px;
+    padding: 10px 0px 10px 20px;
     color: yellow
     }
