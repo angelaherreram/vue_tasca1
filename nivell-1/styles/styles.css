@@ -1,0 +1,70 @@
+
+.menu {
+    max-width: 1200px;
+    background: grey;
+    color: red;
+    margin: 15px;
+    padding: 10px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+h1 {
+    max-width: 1200px;
+    background: orange;
+    color: yellow;
+    margin: 15px;
+    padding: 10px;
+}
+
+.block-title { 
+    max-width: 1200px;
+    background: black;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    }
+    
+.block-columns { 
+        max-width: 1200px;
+        background: black;
+        color: white;
+        margin: 15px;
+        padding: 15px;
+        display: flex;
+        }
+        
+.p-columna {
+    margin: 15px;
+    padding: 10px;
+    color: blue;     
+}
+
+.columna {
+    max-width: 1200px;
+    display: flex;
+}
+
+.columna-derecha {
+    max-width: 1200px;
+    background: red;
+    color: yellow;
+    margin: 15px;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+
+
+.block-footer { 
+    max-width: 1200px;
+    background: black;
+    margin: 15px;
+    padding: 15px;
+    }
+
+    .p-footer {
+        margin: 15px;
+        padding: 10px;
+        color: yellow;     
+    }
