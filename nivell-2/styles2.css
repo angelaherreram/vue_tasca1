@@ -221,6 +221,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     } 
 
     #logo {
@@ -230,7 +231,7 @@
     .menu {
         color: grey;
         padding: 10px;
-        margin: 10px 15px; 
+        margin: 10px 5px; 
         font-family: 'Gill Sans', 'Trebuchet MS', sans-serif; 
     }
 
@@ -252,26 +253,27 @@
     h1 {
         max-width: 1200px;
         color: orange;
-        margin: 10px 15px;
-        padding: 10px;
+        margin: 10px 15px 0px 15px;
+        padding: 10px 15px 50px 15px;
         opacity: 0.5;
         text-align: center;
         font-family: Verdana, Tahoma, sans-serif;
+        background-color: lightgrey;
     }
         
     #block-columns { 
         max-width: 1200px;
         background: white;
-        margin: 15px;
-        padding: 10px 10px;
+        margin: 0px 15px 15px 15px;
+        padding: 0px 10px;
         display: flex;
     }
 
     #cuadro-izquierdo {
         color: black;
-        background: silver;
-        padding: 50px 10px;
-        margin: 15px; 
+        background: lightgrey;
+        padding: 20px 10px;
+        margin: 0px 15px 15px 15px; 
         display: flex;
         flex-direction: row; 
     }
@@ -281,9 +283,9 @@
     }
 
     #caja1, #caja2, #caja3, #caja4 {
-        background-color:lightgrey;
+        background-color: whitesmoke;
         padding: 10px;
-        margin: 10px; 
+        margin: 0px 0px 10px 0px;
     }
     
     .pink {
@@ -301,10 +303,10 @@
 
     #columna-derecha {
         max-width: 1200px;
-        background: silver;
+        background: lightgrey;
         color: black;
-        margin: 15px;
-        padding: 50px 10px;
+        margin: 0px 15px 15px 5px;
+        padding: 20px 10px;
     }
     
     #block-footer { 
@@ -312,7 +314,7 @@
         background: silver;
         margin: 10px 40px 10px 40px;
         padding: 10px 0px 10px 20px;
-        color: black
+        color: lightgrey
         
     }
         
