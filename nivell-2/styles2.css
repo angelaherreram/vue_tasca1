@@ -23,6 +23,11 @@
         padding: 10px;
         margin: 10px 15px; 
         font-family: 'Gill Sans', 'Trebuchet MS', sans-serif; 
+    
+    }
+
+    .menu a {
+        text-decoration: none;
     }
 
     #social {
@@ -110,6 +115,10 @@
         font-family: 'Gill Sans', 'Trebuchet MS', sans-serif; 
     }
 
+    .menu a {
+        text-decoration: none;
+    }
+
     #social {
         justify-self: right;
     }
@@ -194,6 +203,10 @@
         padding: 10px;
         margin: 10px 15px; 
         font-family: 'Gill Sans', 'Trebuchet MS', sans-serif; 
+    }
+
+    a {
+        text-decoration: none;
     }
 
     #social {
