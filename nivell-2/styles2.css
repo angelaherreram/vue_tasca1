@@ -26,8 +26,9 @@
     
     }
 
-    .menu a {
+    a {
         text-decoration: none;
+        color: grey;
     }
 
     #social {
@@ -115,8 +116,9 @@
         font-family: 'Gill Sans', 'Trebuchet MS', sans-serif; 
     }
 
-    .menu a {
+    a {
         text-decoration: none;
+        color: grey;
     }
 
     #social {
@@ -207,6 +209,8 @@
 
     a {
         text-decoration: none;
+        color: grey;
+
     }
 
     #social {
