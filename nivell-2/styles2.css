@@ -11,36 +11,22 @@
     #container-menus {
         display: flex;
         flex-direction: column;
+        justify-content: space-between ;
     } 
 
-    #menu1 {
-        background: grey;
-        color: white;
-        flex-grow: 1;
+    .menu {
+        color: grey;
         padding: 10px;
         margin: 10px 15px;  
-    }
-    #menu2 {
-        background: grey;
-        color: white;
-        flex-grow: 2;
-        padding: 10px;
-        margin: 10px 15px;
-    }
-    #menu3 {
-        background: grey;
-        color: white;
-        flex-grow: 1;
-        padding: 10px;
-        margin: 10px 15px; 
     }
 
     h1 {
         max-width: 1200px;
-        background: orange;
-        color: yellow;
+        color: orange;
         margin: 10px 15px;
         padding: 10px;
+        opacity: 0.5;
+        text-align: center;
     }
         
     #block-columns { 
@@ -102,34 +88,19 @@
         justify-content: space-between;
     } 
 
-    #menu1 {
-        background: grey;
-        color: white;
-        flex-grow: 1;
+    .menu {
+        color: grey;
         padding: 10px;
         margin: 10px 15px;  
-    }
-    #menu2 {
-        background: grey;
-        color: white;
-        flex-grow: 2;
-        padding: 10px;
-        margin: 10px 15px;
-    }
-    #menu3 {
-        background: grey;
-        color: white;
-        flex-grow: 1;
-        padding: 10px;
-        margin: 10px 15px; 
     }
 
     h1 {
         max-width: 1200px;
-        background: orange;
-        color: yellow;
+        color: orange;
         margin: 10px 15px;
         padding: 10px;
+        opacity: 0.5;
+        text-align: center;
     }
         
     #block-columns { 
@@ -192,34 +163,19 @@
         justify-content: space-between;
     } 
 
-    #menu1 {
-        background: grey;
-        color: white;
-        flex-grow: 1;
+    .menu {
+        color: grey;
         padding: 10px;
         margin: 10px 15px;  
-    }
-    #menu2 {
-        background: grey;
-        color: white;
-        flex-grow: 2;
-        padding: 10px;
-        margin: 10px 15px;
-    }
-    #menu3 {
-        background: grey;
-        color: white;
-        flex-grow: 1;
-        padding: 10px;
-        margin: 10px 15px; 
     }
 
     h1 {
         max-width: 1200px;
-        background: orange;
-        color: yellow;
+        color: orange;
         margin: 10px 15px;
         padding: 10px;
+        opacity: 0.5;
+        text-align: center;
     }
         
     #block-columns { 
