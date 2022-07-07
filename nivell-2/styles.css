@@ -1,0 +1,268 @@
+@media (max-width:480px) {
+
+    #block-title { 
+        background-image: url("/images/japan.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 10px 10px;
+        margin: 15px;
+      }
+
+    #container-menus {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    #menu1 {
+        background: grey;
+        color: white;
+        flex-grow: 1;
+        padding: 10px;
+        margin: 10px 15px;  
+    }
+    #menu2 {
+        background: grey;
+        color: white;
+        flex-grow: 2;
+        padding: 10px;
+        margin: 10px 15px;
+    }
+    #menu3 {
+        background: grey;
+        color: white;
+        flex-grow: 1;
+        padding: 10px;
+        margin: 10px 15px; 
+    }
+
+    h1 {
+        max-width: 1200px;
+        background: orange;
+        color: yellow;
+        margin: 10px 15px;
+        padding: 10px;
+    }
+        
+    #block-columns { 
+        max-width: 1200px;
+        background: black;
+        margin: 15px;
+        padding: 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cuadro-izquierdo {
+        color: blue;
+        background: silver;
+        padding: 50px 10px;
+        margin: 15px; 
+        display: flex;
+        flex-direction: column; 
+    }
+
+    #columna1 {
+        padding: 0px 10px;
+    }
+    #columna2 {
+        padding: 0px 10px;
+    }
+    
+    #columna-derecha {
+        max-width: 1200px;
+        background: red;
+        color: yellow;
+        margin: 15px;
+        padding: 50px 10px;
+    }
+    
+    #block-footer { 
+        max-width: 1200px;
+        background: black;
+        margin: 15px;
+        padding: 10px 10px 10px 10px;
+        color: yellow
+        
+    }
+}
+
+@media (min-width:480px) and (max-width:1024px) {
+
+    #block-title { 
+        background-image: url("/images/japan.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 10px 10px;
+        margin: 15px;
+      }
+
+    #container-menus {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+
+    #menu1 {
+        background: grey;
+        color: white;
+        flex-grow: 1;
+        padding: 10px;
+        margin: 10px 15px;  
+    }
+    #menu2 {
+        background: grey;
+        color: white;
+        flex-grow: 2;
+        padding: 10px;
+        margin: 10px 15px;
+    }
+    #menu3 {
+        background: grey;
+        color: white;
+        flex-grow: 1;
+        padding: 10px;
+        margin: 10px 15px; 
+    }
+
+    h1 {
+        max-width: 1200px;
+        background: orange;
+        color: yellow;
+        margin: 10px 15px;
+        padding: 10px;
+    }
+        
+    #block-columns { 
+        max-width: 1200px;
+        background: black;
+        margin: 15px;
+        padding: 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cuadro-izquierdo {
+        color: blue;
+        background: silver;
+        padding: 50px 10px;
+        margin: 15px; 
+        display: flex;
+        flex-direction: row; 
+    }
+
+    #columna1 {
+        padding: 0px 10px;
+    }
+    #columna2 {
+        padding: 0px 10px;
+    }
+    
+    #columna-derecha {
+        max-width: 1200px;
+        background: red;
+        color: yellow;
+        margin: 15px;
+        padding: 50px 10px;
+    }
+    
+    #block-footer { 
+        max-width: 1200px;
+        background: black;
+        margin: 15px;
+        padding: 10px 10px 10px 10px;
+        color: yellow
+        
+    }
+}
+
+
+@media (min-width:1024px) {
+
+    #block-title { 
+        background-image: url("/images/japan.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 10px 10px;
+        margin: 15px;
+      }
+
+    #container-menus {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+
+    #menu1 {
+        background: grey;
+        color: white;
+        flex-grow: 1;
+        padding: 10px;
+        margin: 10px 15px;  
+    }
+    #menu2 {
+        background: grey;
+        color: white;
+        flex-grow: 2;
+        padding: 10px;
+        margin: 10px 15px;
+    }
+    #menu3 {
+        background: grey;
+        color: white;
+        flex-grow: 1;
+        padding: 10px;
+        margin: 10px 15px; 
+    }
+
+    h1 {
+        max-width: 1200px;
+        background: orange;
+        color: yellow;
+        margin: 10px 15px;
+        padding: 10px;
+    }
+        
+    #block-columns { 
+        max-width: 1200px;
+        background: black;
+        margin: 15px;
+        padding: 10px 10px;
+        display: flex;
+    }
+
+    #cuadro-izquierdo {
+        color: blue;
+        background: silver;
+        padding: 50px 10px;
+        margin: 15px; 
+        display: flex;
+        flex-direction: row; 
+    }
+
+    #columna1 {
+        padding: 0px 10px;
+    }
+    #columna2 {
+        padding: 0px 10px;
+    }
+    
+    #columna-derecha {
+        max-width: 1200px;
+        background: red;
+        color: yellow;
+        margin: 15px;
+        padding: 50px 10px;
+        align-self: flex-end;
+        align-self: center;
+    }
+    
+    #block-footer { 
+        max-width: 1200px;
+        background: black;
+        margin: 15px;
+        padding: 10px 0px 10px 20px;
+        color: yellow
+        
+    }
+        
+}
