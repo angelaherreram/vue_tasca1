@@ -21,11 +21,10 @@ body {
     display: flex;
 }
 
-
 #container-menus {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 } 
 
@@ -95,8 +94,9 @@ h1 {
 }
 
 .images {
-    width: 400px;
-    height: 300px;
+    height: 200px;
+    width: 375px;
+    object-fit: cover;
 }  
 
 #columna-derecha {
@@ -113,17 +113,15 @@ h1 {
     padding: 0px 10px 0px 10px;
 }
 
-
 #footer {
     background: whitesmoke;
     color: black;
     padding: 1px;
     font-family:'Segoe UI', sans-serif;
-
 }
 
 
-@media (min-width:480px) and (max-width:1024px) {
+@media (min-width:480px) and (max-width:1080px) {
 
 
     #block-columns { 
@@ -136,7 +134,7 @@ h1 {
     }
     
     #columna-derecha {
-        margin: 15px 15px 0px 15px;
+        margin: 10px 10px 0px 15px;
 
         }
 
@@ -164,7 +162,7 @@ h1 {
         margin: 15px 15px 0px 15px;
         }
 
-    #caja1, #caja2, #caja3, #caja4 {
+    .caja {
             width: auto;
         }
 
@@ -175,7 +173,8 @@ h1 {
         #container-menus {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-content: flex-start;
+            height: 100px;
         } 
 
         #block-columns { 
