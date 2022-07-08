@@ -1,26 +1,19 @@
 body {
     max-width: 1200px;
+    margin:auto;
 }
 
-#block-title { 
+.block { 
     background: black;
     padding: 10px;
     margin: 10px;
 }
 
 #block-columns { 
-    background: black;
     margin: 20px 10px;
-    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-#block-footer { 
-    background: black;
-    margin: 10px;
-    padding: 10px;
 }
 
 #container-menus {
@@ -40,11 +33,9 @@ body {
 
 #menu1 {
     flex-grow: 1;
-
 }
 #menu2 {
     flex-grow: 2;
-
 }
 #menu3 {
     flex-grow: 1;
@@ -103,171 +94,57 @@ h1 {
 }
 
 
+@media (min-width:480px) and (max-width:1024px) {
 
-@media (min-width:0px) and (max-width:480px) {
-
-    #block-title { 
-        background: black;
-        padding: 10px 10px;
-        margin: 15px;
+#block-columns { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+#cuadro-izquierdo {
+        width:100%; /*adaptar*/
     }
 
-    #container-menus {
+    #columna-derecha {
+        width:100%; /*adaptar*/
+    }
+}
+    
+@media (min-width:0px) and (max-width:480px) {
+
+    #block-columns { 
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+    #cuadro-izquierdo {
+        flex-direction: column;
+        width: 100%; /*adaptar*/
+        }
+
+    #cuadro-columnas {
+        flex-direction: column;
+        }
+        
+    .columna {
+        width: auto; }
+    
+    #columna-derecha {
+        width: 100%; /*adaptar*/
+        }
+
+    #container-menus {
         flex-direction: column;
     } 
 
-    #menu1 {
-        background: grey;
-        color: white;
-        flex-grow: 1;
-        padding: 10px;
-        margin: 10px 15px;  
-    }
-    #menu2 {
-        background: grey;
-        color: white;
-        flex-grow: 2;
-        padding: 10px;
-        margin: 10px 15px;
-    }
-    #menu3 {
-        background: grey;
-        color: white;
-        flex-grow: 1;
-        padding: 10px;
-        margin: 10px 15px; 
-    }
+        .menu {
+            margin: 15px 15px 0px 15px;  
+        }
 
-    h1 {
-        max-width: 1200px;
-        background: orange;
-        color: yellow;
-        margin: 10px 15px;
-        padding: 10px;
-    }
-        
-    #block-columns { 
-        max-width: 1200px;
-        background: black;
-        margin: 15px;
-        padding: 10px 10px;
-        display: flex;
-        flex-wrap: wrap;
-    }
+        #menu3 {
+            margin: 15px; 
 
-    #cuadro-izquierdo {
-        color: blue;
-        background: silver;
-        padding: 50px 10px;
-        margin: 15px; 
-        display: flex;
-        flex-direction: column; 
-    }
-
-    #columna1 {
-        padding: 0px 10px;
-    }
-    #columna2 {
-        padding: 0px 10px;
-    }
-    
-    #columna-derecha {
-        max-width: 1200px;
-        background: red;
-        color: yellow;
-        margin: 15px;
-        padding: 50px 10px;
-    }
-    
-    #block-footer { 
-        max-width: 1200px;
-        background: black;
-        margin: 15px;
-        padding: 10px 10px 10px 10px;
-        color: yellow
-        
-    }
-}
-@media (min-width:480px) and (max-width:1024px) {
-
-#block-title { 
-    background: black;
-    padding: 10px 10px;
-    margin: 15px;
-}
-
-#container-menus {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} 
-
-#menu1 {
-    background: grey;
-    color: white;
-    flex-grow: 1;
-    padding: 10px;
-    margin: 10px 15px;  
-}
-#menu2 {
-    background: grey;
-    color: white;
-    flex-grow: 2;
-    padding: 10px;
-    margin: 10px 15px;
-}
-#menu3 {
-    background: grey;
-    color: white;
-    flex-grow: 1;
-    padding: 10px;
-    margin: 10px 15px; 
-}
-
-h1 {
-    background: orange;
-    color: yellow;
-    margin: 10px 15px;
-    padding: 10px;
-}
-    
-#block-columns { 
-    background: black;
-    margin: 15px;
-    padding: 10px 10px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#cuadro-izquierdo {
-    color: blue;
-    background: silver;
-    padding: 50px 10px;
-    margin: 15px; 
-    display: flex;
-    flex-direction: row; 
-}
-
-#columna1 {
-    padding: 0px 10px;
-}
-#columna2 {
-    padding: 0px 10px;
-}
-
-#columna-derecha {
-    background: red;
-    color: yellow;
-    margin: 15px;
-    padding: 50px 10px;
-}
-
-#block-footer { 
-    background: black;
-    margin: 15px;
-    padding: 10px 10px 10px 10px;
-    color: yellow
-}
+        }
 
 }
